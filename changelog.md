@@ -8,7 +8,7 @@ This file is kept current automatically: the fork owner's daily upstream-sync jo
 
 ## Our changes — not yet in upstream [US]
 
-| Branch | Commit | Date | Change | Submitted as | Status (2026-09-28) |
+| Branch | Commit | Date | Change | Submitted as | Status (2026-09-29) |
 |---|---|---|---|---|---|
 | `fix/opencode-v2-plugin` | [`41df350`](https://github.com/famewolf/lowfat/commit/41df350) | 2026-09-26 | Support the OpenCode v2 plugin API via install-time version detection — `lowfat opencode` works on both opencode 1.x and 2.0.x (v1/v2 plugin loaders, `execute.before` hook port) | [zdk/lowfat#20](https://github.com/zdk/lowfat/issues/20) (issue with full change detail; PR offered) | OPEN — awaiting maintainer response |
 
@@ -39,5 +39,5 @@ This file is kept current automatically: the fork owner's daily upstream-sync jo
 
 ## Notes
 
-- Default branch `main` carries docs-only commits (this changelog) ahead of upstream `main`; no code ahead/behind as of 2026-09-28 (upstream unchanged at `a17b3e0`).
+- Default branch `main` carries docs-only commits (this changelog) ahead of upstream `main`; no code ahead/behind as of 2026-09-29 (upstream unchanged at `a17b3e0`).
 - A canonical copy of this changelog is kept by the fork owner (`memory/fork-changelogs/famewolf__lowfat.md`) so the record survives a destructive fork reset; the sync job restores it if a sync removes it from the fork.
