@@ -8,9 +8,9 @@ This file is kept current automatically: the fork owner's daily upstream-sync jo
 
 ## Our changes — not yet in upstream [US]
 
-| Branch | Commit | Date | Change | Submitted as | Status (2026-10-02) |
+| Branch | Commit | Date | Change | Submitted as | Status (2026-10-04) |
 |---|---|---|---|---|---|
-| `fix/opencode-v2-plugin` | [`41df350`](https://github.com/famewolf/lowfat/commit/41df350) | 2026-09-26 | Support the OpenCode v2 plugin API via install-time version detection — `lowfat opencode` works on both opencode 1.x and 2.0.x (v1/v2 plugin loaders, `execute.before` hook port) | [zdk/lowfat#20](https://github.com/zdk/lowfat/issues/20) + [zdk/lowfat#21](https://github.com/zdk/lowfat/pull/21) | **MAINTAINER REPLIED 2026-10-02 02:09: "looks legit, please turn into PR" → PR #21 OPENED 2026-10-02 04:38Z (head 41df350 → base a17b3e0, mergeable). Awaiting review/merge.** |
+| `fix/opencode-v2-plugin` | [`41df350`](https://github.com/famewolf/lowfat/commit/41df350) | 2026-09-26 | Support the OpenCode v2 plugin API via install-time version detection — `lowfat opencode` works on both opencode 1.x and 2.0.x (v1/v2 plugin loaders, `execute.before` hook port) | [zdk/lowfat#20](https://github.com/zdk/lowfat/issues/20) + [zdk/lowfat#21](https://github.com/zdk/lowfat/pull/21) | **MAINTAINER REPLIED 2026-10-02 02:09: "looks legit, please turn into PR" → PR #21 OPENED 2026-10-02 04:38Z (head 41df350 → base a17b3e0, mergeable). Awaiting review/merge — no new maintainer activity as of 2026-10-04.** |
 
 ## Our changes — merged into upstream [US]
 
@@ -39,6 +39,7 @@ This file is kept current automatically: the fork owner's daily upstream-sync jo
 
 ## Notes
 
-- Default branch `main` carries docs-only commits (this changelog) ahead of upstream `main`; no code ahead/behind as of 2026-10-02 (upstream unchanged at `a17b3e0`).
+- Default branch `main` carries docs-only commits (this changelog) ahead of upstream `main`; no code ahead/behind as of 2026-10-04 (upstream unchanged at `a17b3e0`).
 - 2026-10-02: zdk replied on #20 (02:09): "looks legit, please turn into PR" → PR #21 opened from fix/opencode-v2-plugin @41df350 (base a17b3e0, mergeable=true).
+- 2026-10-04: upstream `main` unchanged at `a17b3e0`; PR #21 still OPEN, 0 new maintainer comments.
 - A canonical copy of this changelog is kept by the fork owner (`memory/fork-changelogs/famewolf__lowfat.md`) so the record survives a destructive fork reset; the sync job restores it if a sync removes it from the fork.
